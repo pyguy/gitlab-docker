@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-LABEL maintainer "Pierre Ugaz <ulm0@innersea.xyz>"
+LABEL maintainer "Hamidreza Josheghani <hr.josheghani@gmail.com>"
 SHELL ["/bin/sh", "-c"],
 ENV LANG=C.UTF-8
 # Install required packages
