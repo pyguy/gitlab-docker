@@ -2,7 +2,7 @@
 
 if [[ ${DOWNLOAD_URL} == *"raspbian"* ]]; then
     echo "Downloading GitLab CE from Package Cloud - ${RELEASE_VERSION}"
-    wget --quiet ${DOWNLOAD_URL} -O /tmp/gitlab.deb
+    wget --content-disposition --quiet ${DOWNLOAD_URL} -O /tmp/gitlab.deb
 # else
 #     echo "Downloading package as artifact - ${DOWNLOAD_URL}"
 #     # If we are fetching the package which is available as an artifact, we need
